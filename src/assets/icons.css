@@ -1,0 +1,149 @@
+/* ============ Navbar Links Hover ============ */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #0d6efd;
+  transition: width 0.3s ease;
+}
+.nav-link:hover {
+  color: #0d6efd;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ============ Buttons Hover ============ */
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* ============ Cards Hover (Services, Doctors) ============ */
+.card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ============ Image Hover (Doctors, Gallery, etc.) ============ */
+img {
+  transition: transform 0.5s ease;
+}
+img:hover {
+  transform: scale(1.08);
+}
+
+/* ============ Social Icons Hover ============ */
+.social-icon {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 8px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+
+/* ============ Section Hover (Optional Glow Effect) ============ */
+.section-hover {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+.section-hover:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+/* Custom Icon System - No CDN Dependencies */
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  font-style: normal;
+}
+
+.icon-home::before { content: "🏠"; }
+.icon-user-md::before { content: "👨‍⚕️"; }
+.icon-calendar-check::before { content: "📅"; }
+.icon-envelope::before { content: "✉️"; }
+.icon-stethoscope::before { content: "🩺"; }
+.icon-bars::before { content: "☰"; }
+.icon-sun::before { content: "☀️"; }
+.icon-moon::before { content: "🌙"; }
+.icon-heartbeat::before { content: "💓"; }
+.icon-search::before { content: "🔍"; }
+.icon-star::before { content: "⭐"; }
+.icon-map-marker-alt::before { content: "📍"; }
+.icon-calendar-plus::before { content: "📆"; }
+.icon-phone::before { content: "📞"; }
+.icon-clock::before { content: "🕐"; }
+.icon-shield-alt::before { content: "🛡️"; }
+.icon-tooth::before { content: "🦷"; }
+.icon-hand-holding-medical::before { content: "🫴"; }
+.icon-bone::before { content: "🦴"; }
+.icon-baby::before { content: "👶"; }
+.icon-brain::before { content: "🧠"; }
+.icon-chevron-left::before { content: "‹"; }
+.icon-chevron-right::before { content: "›"; }
+.icon-arrow-left::before { content: "←"; }
+.icon-check::before { content: "✓"; }
+.icon-times::before { content: "✕"; }
+.icon-edit::before { content: "✏️"; }
+.icon-calendar-times::before { content: "🚫"; }
+.icon-plus::before { content: "+"; }
+.icon-exclamation-triangle::before { content: "⚠️"; }
+.icon-paper-plane::before { content: "✈️"; }
+.icon-spinner::before { 
+  content: "⟲"; 
+  animation: spin 1s linear infinite;
+}
+.icon-sign-in-alt::before { content: "🔑"; }
+.icon-eye::before { content: "👁️"; }
+.icon-eye-slash::before { content: "🙈"; }
+.icon-sign-out-alt::before { content: "🚪"; }
+.icon-users::before { content: "👥"; }
+.icon-chart-bar::before { content: "📊"; }
+.icon-user::before { content: "👤"; }
+.icon-user-graduate::before { content: "🎓"; }
+.icon-user-plus::before { content: "👤+"; }
+.icon-history::before { content: "📜"; }
+.icon-notes-medical::before { content: "📝"; }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Custom styled icons for better consistency */
+.icon-modern {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 2px;
+  font-size: 0.875em;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Navigation specific icons */
+.nav-icon-home::before { content: "⌂"; }
+.nav-icon-doctors::before { content: "⚕"; }
+.nav-icon-appointments::before { content: "📋"; }
+.nav-icon-contact::before { content: "💬"; }
+.nav-icon-login::before { content: "🔐"; }
