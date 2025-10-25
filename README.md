@@ -1,5 +1,44 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+README.md
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🩺 MediTrust
+
+Your trusted medical companion – manage your health with confidence.
+
+🌐 Live Demo
+https://medi-trust.vercel.app/
+
+📖 About the Project
+
+MediTrust is a responsive healthcare web application that allows users to:
+
+Book appointments online 🩹
+
+Access health records securely 🔒
+
+Find trusted doctors and clinics 🏥
+
+Manage prescriptions easily 💊
+
+This project was developed as my final project at ITI (Front-End Track) to demonstrate my skills in building modern, user-friendly interfaces.
+
+💻 Tech Stack
+
+Vue.js ⚡
+
+HTML5
+
+CSS3
+
+JavaScript (ES6)
+
+Bootstrap 🎨
+
+Vite 🚀
+🚀 Features
+
+✅ User authentication (sign in / sign up)
+✅ Responsive design for all devices
+✅ Dynamic doctor listing
+✅ Appointment booking system
+✅ Clean and modern UI
