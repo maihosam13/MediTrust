@@ -300,7 +300,7 @@
                 <span class="text-white font-medium text-sm">M</span>
               </div>
               <div>
-                <div class="font-medium text-gray-900 dark:text-white text-sm">Abdelrahman Hamdy</div>
+                <div class="font-medium text-gray-900 dark:text-white text-sm">Momen Mahmoud</div>
                 <div class="text-xs text-gray-500 dark:text-gray-400">Dermatology Patient</div>
               </div>
             </div>
